@@ -10,7 +10,7 @@
 
 #include "utils.h"
 
-ifdef __MACH__
+#ifdef __MACH__
 #include <mach/clock.h>
 #include <mach/mach.h>
 #endif
